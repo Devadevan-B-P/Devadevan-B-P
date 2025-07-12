@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 */12 * * *" # Every 12 hours
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -18,4 +18,7 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          languages.threshold: 2%
+          languages.details: percentage
           config_timezone: Asia/Kolkata
