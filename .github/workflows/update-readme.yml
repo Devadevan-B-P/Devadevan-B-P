@@ -1,23 +1,34 @@
-name: Debug GitHub Metrics Workflow
+name: Update GitHub Stats
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"  # Every 12 hours
+  workflow_dispatch:        # Manual trigger
 
 jobs:
-  debug-metrics:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check token works with GitHub REST API
-        run: |
-          echo "Checking REST API..."
-          curl -i -H "Authorization: token ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_threshold: 2%
 
-      - name: Check token works with GitHub GraphQL API
+      - name: Commit and push `metrics.svg`
         run: |
-          echo "Checking GraphQL API..."
-          curl -i -H "Authorization: bearer ${{ secrets.METRICS_TOKEN }}" -H "Content-Type: application/json" \
-            -d '{"query":"query { viewer { login } }"}' https://api.github.com/graphql
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add metrics.svg
+          git commit -m "📊 Update GitHub stats [automated]" || echo "No changes to commit"
+          git push
