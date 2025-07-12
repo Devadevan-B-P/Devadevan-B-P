@@ -2,15 +2,22 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # Every 12 hours
+  workflow_dispatch:        # Manual trigger from GitHub UI
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # ✅ DEBUG: Test if the METRICS_TOKEN is valid and has access
+      - name: Debug Token Access
+        run: |
+          echo "Testing token access..."
+          curl -H "Authorization: token ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user
 
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
