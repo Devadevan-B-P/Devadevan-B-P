@@ -1,8 +1,6 @@
-name: Update GitHub Metrics
+name: Update GitHub Stats
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"  # Every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -13,21 +11,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Metrics
+      - name: Test with GITHUB_TOKEN
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           filename: metrics.svg
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: bytes-size, percentage
 
-      - name: Commit metrics.svg to repo
+      - name: Check token context
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add metrics.svg || echo "metrics.svg not found"
-          git diff --cached --quiet || git commit -m "📊 Auto-update metrics.svg"
-          git push
+          echo "Token: ${{ secrets.METRICS_TOKEN }}"
