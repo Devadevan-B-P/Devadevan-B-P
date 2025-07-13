@@ -16,11 +16,9 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          # ✅ Use classic PAT to read GitHub data
+          # ✅ Use classic PAT to read and write
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # ✅ Use GITHUB_TOKEN to commit to the repo
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
 
           filename: metrics.svg
           base: header, activity, community, repositories, metadata
