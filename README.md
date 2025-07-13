@@ -1,8 +1,10 @@
-<!-- Retro Wave + Typing + Neon Glow Clean Version -->
 
+
+<!-- Typing Animation (Clean & Focused) -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F700B3&width=450&lines=Hi+%F0%9F%91%8B%2C+I'm+Devadevan.;I+build+3D+sites+%26+AI+tools.;Full-stack+%7C+Automation+%7C+Creative+tech!" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F700B3&width=450&center=true&vCenter=true&lines=Hi+%F0%9F%91%8B%2C+I'm+Devadevan.;I+like+coding+%F0%9F%92%BB" />
 </h1>
+
 
 <h2 align="center" style="color: #ff4c97;">⚡ Passionate Full-stack Dev | 🚀 AI Automation Explorer</h2>
 
