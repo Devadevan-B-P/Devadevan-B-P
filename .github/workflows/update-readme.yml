@@ -1,6 +1,8 @@
 name: Update GitHub Stats
 
 on:
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,14 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Test with GITHUB_TOKEN
+      - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # ✅ Use PAT only to fetch data
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # ✅ Use built-in GITHUB_TOKEN to commit
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
           filename: metrics.svg
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
-
-      - name: Check token context
-        run: |
-          echo "Token: ${{ secrets.METRICS_TOKEN }}"
