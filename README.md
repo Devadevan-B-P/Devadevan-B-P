@@ -1,61 +1,81 @@
-<h1 align="center">🌌 Hi, I'm <span style="color:#ff4c97;">DEVADEVAN</span> 👋</h1>
-<h3 align="center">🚀 A Passionate Developer from India | Exploring Full-Stack, AI & Automation</h3>
+<!-- Retro Wave + Terminal + Typing Effect + Neon Glow -->
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F700B3&width=450&lines=Hi+%F0%9F%91%8B%2C+I'm+Devadevan.;I+build+3D+sites+%26+AI+tools.;Full-stack+%7C+Automation+%7C+Creative+tech!" />
+</h1>
+
+<h2 align="center" style="color: #ff4c97; font-family: monospace;">⚡ Passionate Full-stack Dev | 🚀 AI Automation Explorer</h2>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=devadevan-b-p&label=Profile+Views&color=ff4c97&style=flat-square" alt="devadevan-b-p" />
+</div>
+
+---
+
+### 🧠 About Me
+```
+👨‍💻 Currently working on:
+   → 3D Web Experiences (React + Three.js)
+   → Automating Pinterest/Instagram workflows with AI
+   → Terminal-style portfolio projects
+
+🎯 I love turning ideas into reality
+💡 Open to creative collabs & building tools people actually use
+```
+
+---
+
+### 🧰 Languages & Tools
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=devadevan-b-p&label=Profile%20views&color=ff4c97&style=flat-square" alt="devadevan-b-p" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,cpp,java,py,nodejs,mongodb,mysql,html,css&theme=dark" />
 </p>
 
 ---
 
-🌱 I’m currently learning **whatever sparks my curiosity** — from 3D web to AI workflows  
-💻 Most of my builds live here: [My GitHub Repositories](https://github.com/Devadevan-B-P)  
-📫 Let's connect: [LinkedIn →](https://www.linkedin.com/in/devadevan-b-p-894000356)
+### 📊 My GitHub Metrics (Auto-Updating)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Devadevan-B-P/Devadevan-B-P/main/metrics.svg" alt="Metrics" width="90%" />
+</p>
 
 ---
 
-<h3 align="center">🔗 Connect with me</h3>
+### 🔗 Connect with Me
+
 <p align="center">
   <a href="https://linkedin.com/in/devadevan-b-p" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" />
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
 
 ---
 
-<h3 align="center">🧰 Languages & Tools</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40" />
-</p>
+### 🎨 Retro Wave Aesthetic
 
----
-
-<h3 align="center">📊 Auto-Updating GitHub Stats (Retro Wave)</h3>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Devadevan-B-P/Devadevan-B-P/main/metrics.svg" alt="GitHub Metrics" width="90%" />
-</p>
-
----
-
-<h3 align="center">✨ Fun Facts</h3>
-
-- 🛠 I build **automation tools**, **3D sites**, and **custom AI workflows**
-- 🎯 Passionate about building products people actually use
-- 💡 I love turning ideas into reality — with a splash of creativity
-
----
-
-<h3 align="center">🎨 Inspired by the Retro Future. Built for Now.</h3>
 <p align="center">
   <img src="https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif" width="300" />
+</p>
+
+---
+
+### 🧠 Terminal-style Commands
+
+```
+$ whoami
+👤 Devadevan — Full-Stack | AI | Creative Builder
+
+$ projects
+📁 github.com/Devadevan-B-P?tab=repositories
+
+$ connect
+🔗 linkedin.com/in/devadevan-b-p
+```
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=footer&text=Made%20with%20❤️%20by%20Devadevan&fontColor=ffffff&fontAlignY=35"/>
 </p>
