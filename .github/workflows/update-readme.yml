@@ -39,7 +39,7 @@ jobs:
 
           # 📊 Language stats
           plugin_languages: yes
-          plugin_languages_ignored: css
+          plugin_languages_ignored: html, css
           plugin_languages_threshold: 2%
           plugin_languages_details: percentage
 
