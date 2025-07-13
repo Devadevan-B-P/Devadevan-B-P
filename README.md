@@ -1,10 +1,7 @@
-
-
 <!-- Typing Animation (Clean & Focused) -->
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F700B3&width=450&center=true&vCenter=true&lines=Hi+%F0%9F%91%8B%2C+I'm+Devadevan.;I+like+coding+%F0%9F%92%BB" />
 </h1>
-
 
 <h2 align="center" style="color: #ff4c97;">⚡ Passionate Full-stack Dev | 🚀 AI Automation Explorer</h2>
 
@@ -18,10 +15,7 @@
 
 ### 🧠 About Me
 
-- 👨‍💻 Currently building:
-  - 3D Web Experiences (React + Three.js)
-  - AI-Powered Automation Tools (Pinterest/Instagram workflows)
-- 🎯 I love turning creative ideas into real-world tools
+- Just a curious guy exploring the world of code
 - 💡 Always open to cool projects and collaborations
 
 ---
@@ -38,6 +32,14 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Devadevan-B-P/Devadevan-B-P/main/metrics.svg" alt="Metrics" width="90%" />
+</p>
+
+---
+
+### 📅 GitHub Contribution Calendar
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/FF4C97/Devadevan-B-P" alt="Devadevan-B-P's GitHub chart" />
 </p>
 
 ---
