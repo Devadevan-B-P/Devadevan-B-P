@@ -1,29 +1,26 @@
-<!-- Retro Wave + Terminal + Typing Effect + Neon Glow -->
+<!-- Retro Wave + Typing + Neon Glow Clean Version -->
 
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F700B3&width=450&lines=Hi+%F0%9F%91%8B%2C+I'm+Devadevan.;I+build+3D+sites+%26+AI+tools.;Full-stack+%7C+Automation+%7C+Creative+tech!" />
 </h1>
 
-<h2 align="center" style="color: #ff4c97; font-family: monospace;">⚡ Passionate Full-stack Dev | 🚀 AI Automation Explorer</h2>
+<h2 align="center" style="color: #ff4c97;">⚡ Passionate Full-stack Dev | 🚀 AI Automation Explorer</h2>
 
 ---
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=devadevan-b-p&label=Profile+Views&color=ff4c97&style=flat-square" alt="devadevan-b-p" />
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=devadevan-b-p&label=Profile+Views&color=ff4c97&style=flat-square" alt="Profile Views" />
+</p>
 
 ---
 
 ### 🧠 About Me
-```
-👨‍💻 Currently working on:
-   → 3D Web Experiences (React + Three.js)
-   → Automating Pinterest/Instagram workflows with AI
-   → Terminal-style portfolio projects
 
-🎯 I love turning ideas into reality
-💡 Open to creative collabs & building tools people actually use
-```
+- 👨‍💻 Currently building:
+  - 3D Web Experiences (React + Three.js)
+  - AI-Powered Automation Tools (Pinterest/Instagram workflows)
+- 🎯 I love turning creative ideas into real-world tools
+- 💡 Always open to cool projects and collaborations
 
 ---
 
@@ -35,7 +32,7 @@
 
 ---
 
-### 📊 My GitHub Metrics (Auto-Updating)
+### 📊 GitHub Metrics (Auto-Updating)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Devadevan-B-P/Devadevan-B-P/main/metrics.svg" alt="Metrics" width="90%" />
@@ -43,19 +40,13 @@
 
 ---
 
-### 🔗 Connect with Me
+### 🔗 Connect With Me
 
 <p align="center">
   <a href="https://linkedin.com/in/devadevan-b-p" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
-
----
-
-$ connect
-🔗 linkedin.com/in/devadevan-b-p
-```
 
 ---
 

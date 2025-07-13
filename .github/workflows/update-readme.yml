@@ -22,12 +22,15 @@ jobs:
           filename: metrics.svg
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
-          config_display: standard            # ✅ Hides monkey/easter eggs
-          
+          config_display: standard  # ✅ Hides "monkey" and Easter eggs
+
+          # Plugins
           plugin_languages: yes
           plugin_languages_ignored: css
           plugin_languages_details: percentage
 
-          plugin_isocalendar: yes             # 📅 Contribution calendar
-          plugin_traffic: yes                 # 👀 Views and clones
-          plugin_lines: yes                   # 📊 Total lines of code
+          plugin_isocalendar: yes
+          plugin_isocalendar_days: full   # ✅ Makes calendar 2D
+
+          plugin_traffic: yes
+          plugin_lines: yes
