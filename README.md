@@ -53,23 +53,6 @@
 
 ---
 
-### 🎨 Retro Wave Aesthetic
-
-<p align="center">
-  <img src="https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif" width="300" />
-</p>
-
----
-
-### 🧠 Terminal-style Commands
-
-```
-$ whoami
-👤 Devadevan — Full-Stack | AI | Creative Builder
-
-$ projects
-📁 github.com/Devadevan-B-P?tab=repositories
-
 $ connect
 🔗 linkedin.com/in/devadevan-b-p
 ```
@@ -77,5 +60,5 @@ $ connect
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=footer&text=Made%20with%20❤️%20by%20Devadevan&fontColor=ffffff&fontAlignY=35"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=footer&text=Made%20by%20Devadevan&fontColor=ffffff&fontAlignY=35"/>
 </p>
