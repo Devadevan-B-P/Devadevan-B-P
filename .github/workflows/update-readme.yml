@@ -28,7 +28,5 @@ jobs:
           plugin_languages_ignored: css
           plugin_languages_details: percentage
 
-          plugin_isocalendar: yes                  # ✅ Contribution calendar
-          plugin_isocalendar_duration: full-year   # ✅ Enables 2D layout
-          plugin_traffic: yes                      # ✅ Views and clones
-          plugin_lines: yes                        # ✅ Total lines of code
+          plugin_traffic: yes         # ✅ Views and clones
+          plugin_lines: yes           # ✅ Total lines of code
